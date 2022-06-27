@@ -75,8 +75,8 @@ Login:
         mainmenu()
 
     elif choice == '2':
-        apikey = '1Bk8AeOWOjO2DCUjFSOFQK11'
-        secretapikey = 'crGr--X10duyKqUKKtfgfS5E0FrgsF2jz439eSrHjlkVMgS3'
+        apikey = input("Enter your public API key: ")
+        secretapikey = input("Enter your secret API key: )
         connect()
         mainmenu()
 
